@@ -13,7 +13,7 @@ The Original Code is: SynEditSearch.pas, released 2000-04-07.
 The Original Code is based on the mwEditSearch.pas file from the mwEdit
 component suite by Martin Waldenburg and other developers.
 Portions created by Martin Waldenburg are Copyright 1999 Martin Waldenburg.
-Unicode translation by Maël Hörz.
+Unicode translation by Ma? H?z.
 All Rights Reserved.
 
 Contributors to the SynEdit project are listed in the Contributors.txt file.
@@ -157,8 +157,8 @@ end;
 function IsWordBreakChar(C: WideChar): Boolean;
 begin
   case C of
-    #0..#32, '.', ',', ';', ':', '"', '''', '´', '`', '°', '^', '!', '?', '&',
-    '$', '@', '§', '%', '#', '~', '[', ']', '(', ')', '{', '}', '<', '>',
+    #0..#32, '.', ',', ';', ':', '"', '''', '¢¥', '`', '¡Æ', '^', '!', '?', '&',
+    '$', '@', '¡×', '%', '#', '~', '[', ']', '(', ')', '{', '}', '<', '>',
     '-', '=', '+', '*', '/', '\', '|':
       Result := True;
     else
